@@ -1,11 +1,19 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet } from 'react-native';
+import { Block, Text } from "expo-ui-kit";
+import { NavigationContainer } from "@react-navigation/native";
+
+import Drawer from './Drawer';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-    </View>
+    <NavigationContainer>
+      {/* <Block middle center>
+        <Text>We're building Drawer Menu using</Text>
+        <Text bold>react-navigation v5</Text>
+      </Block> */}
+      <Drawer />
+    </NavigationContainer>
   );
 }
 
