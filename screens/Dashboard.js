@@ -3,8 +3,8 @@ import { Block, Text } from "expo-ui-kit";
 
 const Dashboard = () => {
   return (
-    <Block center middle>
-      <Text h2>Dashboard</Text>
+    <Block center middle color="#88B04B">
+      <Text h2 white>Dashboard</Text>
     </Block>
   )
 }

@@ -3,8 +3,8 @@ import { Block, Text } from "expo-ui-kit";
 
 const Messages = () => {
   return (
-    <Block center middle>
-      <Text h2>Messages</Text>
+    <Block center middle color="#ffc46B">
+      <Text h2 white>Messages</Text>
     </Block>
   )
 }
